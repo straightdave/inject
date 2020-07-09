@@ -1,6 +1,9 @@
 # inject
 --
-    import "github.com/codegangsta/inject"
+    import "github.com/straightdave/inject"
+
+> Forked from `github.com/codegangsta/inject` which inject magic power
+> to `go-martini` framework.
 
 Package inject provides utilities for mapping and injecting dependencies in
 various ways.
@@ -10,7 +13,7 @@ Language Translations:
 
 ## Usage
 
-#### func  InterfaceOf
+#### func InterfaceOf
 
 ```go
 func InterfaceOf(value interface{}) reflect.Type
